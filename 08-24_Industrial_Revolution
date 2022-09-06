@@ -4,9 +4,11 @@ print("""4TH INDUSTRIAL REVOLUTION
 ''''''''
 Please choose on of the options below, and press enter.
 
-1)Question & Answer 1
-2)Question & Answer 2
-3)Question & Answer 3
+1)Why are you here at school?
+2)What is the purpose of school?
+3)Are you getting out of it, what you should be getting out of it?
+4)Do you think you will you have the opportunity to discover what you love, and become great at it after you finish your secondary education?
+5)Should we change how our school systems work?
 
 """)
 
@@ -17,11 +19,15 @@ while (answer == "empty"):
   answer = "chosen"
 
   if(userchoice == "1"):
-    print("PROMPT 1")
+    print("To learn subjects but you will also learn new skills, including social skills.")
   elif(userchoice == "2"):
-    print("PROMPT 2")
+    print("The purpose of school must be to give students the skills to get a job. This means that education is a way for anyone to support him or herself and economically contribute to society.")
   elif(userchoice == "3"):
-    print("PROMPT 3")
+    print("We are getting something out if it and its the certification you get to be qualified for certain tasks, we should be getting more out of because we give so much for little return.")
+  elif(userchoice == "4"):
+    print("Yes because i will have the freedom of doing what i want with all the experiences I have gained . School also teaches you by forcing what you don't what to do.")
+  elif(userchoice == "5"):
+    print("Yes, schools should give more freedom on different subject and focus on individuals learning rather than group based guidelines that don't align with your learning style.")
   else:
     print("INVALID INPUT , please try again")
   answer = "empty"
