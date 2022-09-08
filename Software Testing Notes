@@ -1,0 +1,20 @@
+In the past, testing was often an afterthought after a product was done. Now, testing has become its own specialized area, and some people 
+make whole careers out of it. There is much more you can learn about testing if this is an area of interest for you.
+
+Software testing can be done in two different ways - dynamic and static. Dynamic testing involves actually running and operating the software or system 
+for testing. Examples of static testing includes reviewing technical documentation and dry-runs, or manually moving through the code with pen-and-paper.
+
+There are a variety of methods related to testing. Functional testing relates to testing individual commands, text input, menu functions, etc. User 
+acceptance testing determines if the system satisfies the customer's needs. This is more common when a system or software is specifically designed 
+for a specific client.
+
+When we test different parts of a system or software, this also often includes inputting data to verify whether or not the system returns the 
+expected output.
+
+Alpha testing is where the software or system is being tested by developers and QA (quality assurance) professionals, and beta testing is closer to 
+having it out in the wild. For example, if you are a developer for Apple's Final Cut Pro software, they may ask if you'd like one of the early
+models that's still in testing.
+
+In beta testing, the software system is available to the public (or a group consisting of the public) As this includes the actual public, this is the 
+closest and most realistic testing data a company can get before the product is fully available. At this point, the product should be very stable, and 
+ testing may be related to any unusual cases where the system or software may interact in an unexpected way.
