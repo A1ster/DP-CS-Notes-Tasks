@@ -1,0 +1,45 @@
+print("""SOFTWARE TESTING NOTES
+
+- MENU -
+''''''''
+Please choose on of the options below, and press enter.
+
+1)System
+2)Legacy Systems
+3)Planning
+4)Feasability
+5)TELOS
+6)Change Management
+7)
+8)Business Merger
+9)Real World Example
+
+""")
+
+answer = "empty"
+
+while (answer == "empty"): 
+  userchoice = input()
+  answer = "chosen"
+
+  if(userchoice == "1"):
+    print("Full IT system of all related parts, including the people and the immediate environment. The system may include training employees and/or users, as well as maintaining and protecting data or hardware.The development of most large systems involves a huge amount of time and effort and contains a lot of different stages. Ultimately though, the new system should improve the cost-to-benefit ratio in contrast to not implementing the system.")
+  elif(userchoice == "2"):
+    print("A legacy system is an old method, technology, computer system, or application program, "of, relating to, or being a previous or outdated computer system," yet still in use. Often referencing a system as "legacy" means that it paved the way for the standards that would follow it.")
+  elif(userchoice == "3"):
+    print("A discipline addressing how to complete a project in a certain timeframe, usually with defined stages and designated resources.")
+  elif(userchoice == "4"):
+    print("A feasibility study is an assessment of the practicality of a project or system. A feasibility study aims to objectively and rationally uncover the strengths and weaknesses of an existing business")
+  elif(userchoice == "5"):
+    print("Technical, Economic, Legal, Operational, Schedule (feasibility study) TELOS.")
+  elif(userchoice == "6"):
+    print("Yes, schools sho")
+  elif(userchoice == "7"):
+    print("Yes, schools sho")
+  elif(userchoice == "8"):
+    print("Yes, schools sho")
+  elif(userchoice == "5"):
+    print("Yes, schools sho")
+  else:
+    print("INVALID INPUT , please try again")
+  answer = "empty"
