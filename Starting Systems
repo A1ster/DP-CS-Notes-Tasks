@@ -10,9 +10,8 @@ Please choose on of the options below, and press enter.
 4)Feasability
 5)TELOS
 6)Change Management
-7)
-8)Business Merger
-9)Real World Example
+7)Business Merger
+8)Real World Example
 
 """)
 
@@ -33,13 +32,12 @@ while (answer == "empty"):
   elif(userchoice == "5"):
     print("Technical, Economic, Legal, Operational, Schedule (feasibility study) TELOS.")
   elif(userchoice == "6"):
-    print("Yes, schools sho")
+    print("Strategy in which a systematic approach ensures the efficient and seamless flow of change in an organization's IT infrastructure.")
   elif(userchoice == "7"):
-    print("Yes, schools sho")
+    print("
+Mergers combine two separate businesses into a single new legal entity. True mergers are uncommon because it's rare for two equal companies to mutually benefit from combining resources and staff, including their CEOs.")
   elif(userchoice == "8"):
-    print("Yes, schools sho")
-  elif(userchoice == "5"):
-    print("Yes, schools sho")
+    print("The use of vouchers to pay for tuition at private schools and the charter school movement")
   else:
     print("INVALID INPUT , please try again")
   answer = "empty"
