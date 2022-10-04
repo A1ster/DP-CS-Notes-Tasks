@@ -1,0 +1,35 @@
+print("""Today's Notes""")
+
+
+-MENU-
+---------
+Please choose one of the options below, and press enter
+
+1)  System Changeover
+2)  Implementation Methods
+3)  related to Data Migration
+4)  phases in Data Migration
+5)  issues in Data Migration 
+6)  Merger vs. Acquisition
+7)  System Integration follow M&A
+""")
+answer = "empty"
+userchoice = input()
+
+while(answer == "empty"):
+  answer = "chosen"
+  if(userchoice == "1"):
+    print("process used to switch from one system to anotherprocess used to switch from one system to another. A system changeover for a medical facility, power plant, or communication provider can result in significant consequence should something go awry,
+    or should service be discontinued temporarily. For these reasons, there are a variety of strategies to facilitate system changeover. ")
+  elif(userchoice == "2"):
+    print("Parralel, Big Bang/Direct/Immediate, Pilot, Phased")
+  elif(userchoice == "3"):
+    print("Data migration is the process of selecting, preparing, extracting, and transforming data and permanently transferring it from one computer storage system to another")
+  elif(userchoice == "4"):
+    print("Plan, Migrate, & Validate")
+  elif(userchoice == "5"):
+    print("Merging or acquiring may seek to reduce costs by controlling more of the process, reducing competition, or other factors. Ultimately, the merger should result in a competitive advantage for the new merged organization/company.")
+  elif(userchoice == "6"):
+    print("when merging there are 4 different methods of integration that may be performed: both systems may be kept, with development to have the same functionality. Running both systems in parallel has high maintance costs. both systems may be replaced with a new system. This may result in a new system that meets the new company/organization's needs better overall, but will have higher increased initial costs, including new training for all employees. select the best system components from each and merge them. This provides some familarity for original employees from both, but may result in a longer period to become adjusted to the entire system due to operating by habit in some parts instead of a total change. select the better of the two systems, and drop the other system entirely. Those use to the dropped system may show resistance to change, and there may be policy issues. However, those already familiar with the chosen system can be resources since they are already experienced with it."").            
+  else:
+    print("Invalid Code")
