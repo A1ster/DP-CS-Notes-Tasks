@@ -1,0 +1,69 @@
+print("""Today's Notes
+
+
+-MENU-
+---------
+Please choose one of the options below, and press enter
+
+1) Patch
+2) Upgrades
+3) Updates
+4) Releases
+5) Hardware
+6) Software
+7) Peripheral Devices
+8) Computer Network
+9) Human Resources
+10) Dumb Terminal
+11) Thin Client
+12) Client
+13) Email Server
+14) Router
+15) DNS Server
+16) Firewall
+17) Client-server
+
+answer = "empty"
+userchoice = input()
+
+while(answer == "empty"):
+  answer = "chosen"
+  if(userchoice == "1"):
+    print("used by software companies to update applications by fixing known bugs and vulnerabilities. Be aware that patches may introduce new bugs.")
+  elif(userchoice == "2"):
+    print("improve a product in a minor way, adding some new functionality or fixing a bug. Updates are usually free. Updates may be obtained manually, or may also be automatic through an internet connection.")
+  elif(userchoice == "3"):
+    print("final, working versions of software applications. Prior to release, they should undergo alpha and beta testing. A release is a new product, or an upgraded product.")
+  elif(userchoice == "4"):
+    print("When a company chooses to promote a new software, they typically stop supporting previous products (or will do so within the near future). Stopping support typically results in no new patches or updates released for the product. Over time, this may result in incompatabilities or insecurities between the software and other products or systems.")
+  elif(userchoice == "5"):
+    print("Hardware refers to the computer's tangible components or delivery systems that store and run the written instructions provided by the software.")
+  elif(userchoice == "6"):
+    print("a set of instructions, data or programs used to operate computers and execute specific tasks.")    
+  elif(userchoice == "7"):
+    print("An input/output unit of a system that feeds data into and/or receives data from the central processing unit of a digital device.") 
+  elif(userchoice == "8"):
+    print("nterconnected computing devices that can exchange data and share resources with each other. ") 
+  elif(userchoice == "9"):
+    print("people who are part of (or could be part of) an organization, business, or economy") 
+  elif(userchoice == "10"):
+    print("does not do performing local processing of entered information, but serves only as an input/output device for an attached or network-linked processor.") 
+  elif(userchoice == "11"):
+    print("virtual desktop computing model that runs on the resources stored on a central server instead of a computer's resources.")
+  elif(userchoice == "12"):
+    print("any computer hardware or software device that requests access to a service provided by a server. ") 
+  elif(userchoice == "13"):
+    print("computer system that sends and receives emails") 
+  elif(userchoice == "14"):
+    print("physical or virtual appliance that passes information between two or more packet-switched computer networks.") 
+  elif(userchoice == "15"):
+    print("naming database in which internet domain names are located and translated into Internet Protocol (IP) addresses.") 
+  elif(userchoice == "16"):
+    print("cybersecurity tool that monitors incoming and outgoing network traffic and permits or blocks data packets based on a set of cybersecurity rules.") 
+  elif(userchoice == "17"):
+    print("A server is a sample of software or hardware that serves a specific service to its clients.") 
+  
+  
+  else:
+    print("Invalid Code")
+    answer = "empty"
