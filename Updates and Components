@@ -43,7 +43,7 @@ while(answer == "empty"):
   elif(userchoice == "7"):
     print("An input/output unit of a system that feeds data into and/or receives data from the central processing unit of a digital device.") 
   elif(userchoice == "8"):
-    print("nterconnected computing devices that can exchange data and share resources with each other. ") 
+    print("Interconnected computing devices that can exchange data and share resources with each other. ") 
   elif(userchoice == "9"):
     print("people who are part of (or could be part of) an organization, business, or economy") 
   elif(userchoice == "10"):
